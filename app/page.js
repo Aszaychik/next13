@@ -1,5 +1,7 @@
-export default function page() {
+export default function Page() {
   return (
-    <h1>ASZAYCHIK</h1>
+    <main>
+      <h1>Home</h1>
+    </main>
   );
 }
