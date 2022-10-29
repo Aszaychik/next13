@@ -13,9 +13,7 @@ export default function RootLayout({ children }) {
             <Link href="/post">Post</Link>
           </nav>
         </header>
-        <main className="flex">
-          {children}
-        </main>
+        {children}
       </body>
     </html>
   )
