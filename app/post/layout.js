@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 async function getPost(){
-  let products = await fetch('https://dummyjson.com/products?limit=5')
+  let products = await fetch('https://dummyjson.com/products?limit=20')
   return products.json()
 }
 
